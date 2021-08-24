@@ -37,3 +37,6 @@ def publicaciones(request, categoria_id):
 def fotografia(request):
     fotos = Fofografia.objects.filter(estado=True)
     return render(request, 'inicio/fotografia.html', {'fotos':fotos})
+
+def about(request):
+    return render(request,'inicio/about.html',{})

@@ -10,5 +10,6 @@ urlpatterns = [
     path('profesionales/<int:categoria_id>/', views.profesionales, name='profesionales'),
     path('experiencia-laboral/<int:categoria_id>/', views.exp_laboral, name='exp_laboral'),
     path('publicaciones/<int:categoria_id>/', views.publicaciones, name='publicaciones'),
+    path('about/', views.about, name='about'),
     path('fotos/', views.fotografia, name='fotos'),
     ]

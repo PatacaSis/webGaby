@@ -1,0 +1,28 @@
+{% extends "inicio/index.html" %}
+{% load static %}
+<div class="container-md">
+{% block content %}
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12 columnas">
+      <section class="personas">
+       <div class="contenedor">
+          <article>
+            <div>
+              <img src="{% static 'img/persona.jpg' %}" alt="">
+             </div>
+          </article>
+
+      <article style='margin-left: 100px;'>
+          <div>
+             <p>Gabriel Borella</p>
+             <p>Soy arquitecto y me especializo Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt animi sint beatae qui aperiam magni eum, ab id corrupti, saepe et rem. Iure tempore quasi quidem nobis doloremque asperiores eum!</p>
+          </div>
+      </article>
+    </div>
+</section>
+
+    </div>
+  </div>
+</div>
+{% endblock content %}
